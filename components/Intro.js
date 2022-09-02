@@ -27,7 +27,7 @@ const Intro = () => {
           
           <img
                 className={style.image}
-                src={`/img/GrandpaRon.png`}
+                src={`./gr-llc/img/GrandpaRon.png`}
                 width="500"
                 height="500"
                 priority={true}
