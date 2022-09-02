@@ -3,6 +3,7 @@ import Aos from "aos";
 import React,{ useEffect} from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { introImg } from '/img/GrandpaRon.png'
 
 const Intro = () => {
   useEffect(() => {
@@ -28,12 +29,12 @@ const Intro = () => {
           
           <Image
                 className={style.image}
-                src= '/img/GrandpaRon.png'
+                src= {introImg}
                 width="922px"
                 height="650px"
                 priority={true}
                 objectFit="cover"
-                alt=""
+                alt="/"
               />
           Grandpa Ron and Joshua mowing the lawn [2004]
         </p>

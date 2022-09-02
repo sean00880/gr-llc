@@ -43,7 +43,7 @@ const Footer = () => {
       <div className={style.cardS}>
         <div className={style.cardItem}>
           FOLLOW US:
-          <br /> <i className="fa-brands fa-facebook-f"></i> __IN __BE __TW
+          <br /> __IN __BE __TW
         </div>
         <div className={style.cardItem}>
           © 2022 GRANDPA RON&apos;S LAWN AND LANDSCAPE, LLC.
