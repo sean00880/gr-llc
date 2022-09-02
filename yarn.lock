@@ -1983,7 +1983,11 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
+<<<<<<< HEAD
 "next@^12.2.2":
+=======
+"next@^12.2.5":
+>>>>>>> 6097ccd04638cdf85afe7e1780d1c52ba3134fc9
   "integrity" "sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.2.5.tgz"
   "version" "12.2.5"
