@@ -34,6 +34,7 @@ const Services = ({ services }) => {
                     objectFit="cover"
                     position="center"
                     alt=""
+                    priority={true}
                   />
                   ) : (
                     <Image

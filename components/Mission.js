@@ -15,6 +15,7 @@ const Mission = () => {
                 height="560"
                 objectFit="cover"
                 alt="Joshua"
+                priority={true}
               />
           <div className={style.textdiv}>
 

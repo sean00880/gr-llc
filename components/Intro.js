@@ -31,6 +31,7 @@ const Intro = () => {
                 src={`${process.env.NEXT_PUBLIC_URL}/img/GrandpaRon.png`}
                 width="500"
                 height="500"
+                priority={true}
                 objectFit="cover"
                 alt=""
               />
