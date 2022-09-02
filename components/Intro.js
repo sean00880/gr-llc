@@ -28,9 +28,9 @@ const Intro = () => {
           
           <Image
                 className={style.image}
-                src="/img/GrandpaRon.png"
-                width="500"
-                height="500"
+                src= {`${process.env.NEXT_PUBLIC_URL}/img/GrandpaRon.png`}
+                width="922px"
+                height="650px"
                 priority={true}
                 objectFit="cover"
                 alt=""

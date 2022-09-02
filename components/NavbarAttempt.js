@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className={style.wrapper}>
       <Image
                 className={style.logo3}
-                src={`/img/logo.jpg`}
+                src={`${process.env.NEXT_PUBLIC_URL}/img/logo.jpg`}
                 width="260"
                 height="120"
                 objectFit="cover"

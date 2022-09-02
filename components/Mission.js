@@ -10,7 +10,7 @@ const Mission = () => {
         <div className={style.content}>
           <Image
                 className={style.image}
-                src='/img/joshua.jpg'
+                src={`${process.env.NEXT_PUBLIC_URL}/img/Joshua.jpg`}
                 width="700"
                 height="560"
                 objectFit="cover"
