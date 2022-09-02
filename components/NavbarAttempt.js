@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={style.container}>
       
       <div className={style.wrapper}>
-      <Link href={`${process.env.NEXT_PUBLIC_URL}/`}><Image
+      <Link href={``} passHref><Image
                 className={style.logo3}
                 src={`${process.env.NEXT_PUBLIC_URL}/img/logo.jpg`}
                 width="260"
@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
         <DropdownMenu.Root className={style.services}>
         <DropdownMenu.Trigger className={style.listItem}>
-          <Link href="/products/development">SERVICES ></Link>
+          <Link href="/products/development">SERVICES </Link>
         </DropdownMenu.Trigger>
         <DropdownMenu.Content className={style.content}>
           <DropdownMenu.Item className={style.text}><Link href="/allservices">All Services</Link></DropdownMenu.Item><hr/>
@@ -48,13 +48,13 @@ const Navbar = () => {
 
         <li className={style.listItem}>
         
-          <Link href={`${process.env.NEXT_PUBLIC_URL}/#testimonials`}>TESTIMONIALS</Link>
+          <Link passHref href={`${process.env.NEXT_PUBLIC_URL}/#testimonials`}>TESTIMONIALS</Link>
         </li>
         <li className={style.listItem}>
-          <Link href={`${process.env.NEXT_PUBLIC_URL}/#faq`}>FAQ</Link>
+          <Link passHref href={`${process.env.NEXT_PUBLIC_URL}/#faq`}>FAQ</Link>
         </li>
         <li className={style.listItem}>
-          <Link href="/contact">CONTACT</Link>
+          <Link passHref href="/contact">CONTACT</Link>
         </li>
       </ul>
       <div className={style.hamburger} onClick={() => setOpen(!open)}>
@@ -63,7 +63,7 @@ const Navbar = () => {
       
       <ul onClick={()=>setOpen(false)} className={style.menu} style={{ right: open ? "0px" : "-50vw", display: open? "flex" : "none" }}>
       <li className={style.menuItem}>
-          <Link href="/products/design">ABOUT</Link>
+          <Link passHref href="/products/design">ABOUT</Link>
         </li>
         <DropdownMenu.Root className={style.services}>
         <DropdownMenu.Trigger className={style.menuItem}>
@@ -81,13 +81,13 @@ const Navbar = () => {
         </DropdownMenu.Root>
 
         <li className={style.menuItem}>
-          <Link href="/products/production">TESTIMONIALS</Link>
+          <Link passHref href="/products/production">TESTIMONIALS</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/products/photography">FAQ</Link>
+          <Link passHref href="/products/photography">FAQ</Link>
         </li>
         <li className={style.menuItem}>
-          <Link href="/contact">CONTACT</Link>
+          <Link passHref href="/contact">CONTACT</Link>
         </li>
       </ul>
       </div>

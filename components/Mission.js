@@ -23,7 +23,7 @@ const Mission = () => {
             
           <h1 className={style.teamtext}>Team</h1><hr/>
           <h3 className={style.text}>
-          <blockquote>Grandpa Ron's Landscaping Services was founded in [2021] by Joshua [and ...] with Granda Ron's vision and values in mind. This company is locally owned and operated and serves Columbus, Ohio and surrounding regions. </blockquote>
+          <blockquote>Grandpa Ron&apos;s Landscaping Services was founded in [2021] by Joshua [and ...] with Granda Ron&apos;s vision and values in mind. This company is locally owned and operated and serves Columbus, Ohio and surrounding regions. </blockquote>
           </h3>
           </div>
           <div>

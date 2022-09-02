@@ -8,7 +8,7 @@ import { data } from "../data";
 import Testimonials from "../components/Testimonials";
 import {AnimatePresence} from 'framer-motion';
 import Faq  from "../components/Faq";
-import Contact from "./contact";
+import Contact from "../components/ContactForm";
 
 export default function Home({ services }) {
   return (

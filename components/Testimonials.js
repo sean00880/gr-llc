@@ -14,7 +14,7 @@ const Testimonials = () => {
               &ldquo;{user.comment}&rdquo;
             </p>
             <div className={style.person}>
-              <img
+              <Image
                 className={style.avatar}
                 src={`${process.env.NEXT_PUBLIC_URL}/img/${user.avatar}`}
                 width="45"
