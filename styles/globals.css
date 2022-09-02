@@ -7,6 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;300;500&display=swap');
 
 
+@font-face {
+  font-family: 'Smooch Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;300;500&display=swap');
+}
+
 ::-webkit-scrollbar-track {
   background: rgba(239, 239, 239, 0.826);
   border-radius: 100vw;
