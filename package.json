@@ -16,11 +16,7 @@
     "framer-motion": "^6.2.4",
     "hamburger-react": "^2.5.0",
     "loadash": "^1.0.0",
-<<<<<<< HEAD
-    "next": "^12.2.2",
-=======
-    "next": "^12.2.5",
->>>>>>> 6097ccd04638cdf85afe7e1780d1c52ba3134fc9
+    "next-images": "^1.8.4",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
     "react-hooks": "^1.0.1",
