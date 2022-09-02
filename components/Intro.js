@@ -1,5 +1,4 @@
 import style from "../styles/Intro.module.css";
-import Image from "next/image";
 import Aos from "aos";
 import React,{ useEffect} from "react";
 import Link from "next/link";
@@ -26,7 +25,7 @@ const Intro = () => {
         
         <p className={style.desc}>
           
-          <Image
+          <img
                 className={style.image}
                 src={`/img/GrandpaRon.png`}
                 width="500"
