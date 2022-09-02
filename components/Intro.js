@@ -2,6 +2,7 @@ import style from "../styles/Intro.module.css";
 import Aos from "aos";
 import React,{ useEffect} from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Intro = () => {
   useEffect(() => {
@@ -25,9 +26,9 @@ const Intro = () => {
         
         <p className={style.desc}>
           
-          <img
+          <Img
                 className={style.image}
-                src={`./gr-llc/img/GrandpaRon.png`}
+                src={`./gr-llc/public/img/GrandpaRon.png`}
                 width="500"
                 height="500"
                 priority={true}
