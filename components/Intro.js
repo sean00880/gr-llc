@@ -26,9 +26,9 @@ const Intro = () => {
         
         <p className={style.desc}>
           
-          <img
+          <Image
                 className={style.image}
-                src={`${process.env.NEXT_PUBLIC_URL}/img/GrandpaRon.png`}
+                src={`/img/GrandpaRon.png`}
                 width="500"
                 height="500"
                 priority={true}
