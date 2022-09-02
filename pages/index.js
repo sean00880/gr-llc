@@ -6,13 +6,13 @@ import Services from "../components/Services";
 import styles from "../styles/Home.module.css";
 import { data } from "../data";
 import Testimonials from "../components/Testimonials";
-import {motion} from "framer-motion";
+import {AnimatePresence} from 'framer-motion';
 import Faq  from "../components/Faq";
 import Contact from "./contact";
 
 export default function Home({ services }) {
   return (
-    <motion.div exit={{opacity:0}}>
+      <>
       <Head>
         <title>DECODED || Landscaping Services</title>
         <meta
@@ -26,7 +26,7 @@ export default function Home({ services }) {
       <Testimonials />
       <Faq />
       <Contact />
-    </motion.div>
+      </>
   );
 }
 

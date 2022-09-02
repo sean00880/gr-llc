@@ -1,10 +1,13 @@
 import Layout from "../components/Layout";
 import "../styles/globals.css";
 
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
 function MyApp({ Component, pageProps, router }) {
   return (
+    <AnimatePresence exitBeforeEnter
+    initial={false}
+    onExitComplete={() => window.scrollTo(0, 0)}>
     <motion.div key={router.route}  initial="pageInitial" animate="pageAnimate" variants={{
       pageInitial: {
         opacity: .6,
@@ -19,6 +22,7 @@ function MyApp({ Component, pageProps, router }) {
       <Component {...pageProps} />
       </Layout>
     </motion.div>
+    </AnimatePresence>
   )
 }
 
