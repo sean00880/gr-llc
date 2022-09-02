@@ -3,7 +3,7 @@ import Aos from "aos";
 import React,{ useEffect} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { introImg } from '/img/GrandpaRon.png'
+import { introImg } from '..public/img/GrandpaRon.png';
 
 const Intro = () => {
   useEffect(() => {
