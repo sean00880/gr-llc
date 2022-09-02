@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost", "images.pexels.com", "dropbox.com"],
+    domains: ["localhost", "images.pexels.com"],
     loader: "imgix",
     path: "",
   },
