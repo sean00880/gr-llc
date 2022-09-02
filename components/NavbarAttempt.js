@@ -15,14 +15,14 @@ const Navbar = () => {
     <div className={style.container}>
       
       <div className={style.wrapper}>
-      <Link href={``} passHref><Image
+      <Image
                 className={style.logo3}
                 src={`${process.env.NEXT_PUBLIC_URL}/img/logo.jpg`}
                 width="260"
                 height="120"
                 objectFit="cover"
                 alt=""
-              /></Link>
+              />
       
       
       <ul className={style.list}>

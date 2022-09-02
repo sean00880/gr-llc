@@ -7,7 +7,7 @@ export default function Home({ services }) {
   return (
     <motion.div exit={{opacity:0}}>
       <Head>
-        <title>DECODED || Landscaping Services</title>
+        <title>Grandpa Ron&apos;s || Landscaping Services</title>
         <meta
           name="description"
           content="Landscaping Services | Columbus, Ohio"
